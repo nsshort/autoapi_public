@@ -49,8 +49,8 @@ jobs:
         rm -f configkey.txt 
     - name: Commit #上传新的refresh_token到仓库
       run: |
-        git config --global user.email AutoupdateRobot@email.com
-        git config --global user.name AutoupdateRobot
+        git config --global user.email onemanger_heroku@nss365.onmicrosoft.com
+        git config --global user.name onemanger_heroku
         git add .
         git commit -m "update new refresh_token" -a
     - name: Push changes
